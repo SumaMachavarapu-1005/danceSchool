@@ -1,0 +1,73 @@
+.hi{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy2ABw1fqah-ZCThLuVSxRa5poEljtSyQiKYuNS1J3_pWz6oE45z0hL1D0Nd4Tv0rHBKw&usqp=CAU");
+    height: 635px;
+    width:1375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition:background 1s ease;
+}
+.hi:hover{
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy2ABw1fqah-ZCThLuVSxRa5poEljtSyQiKYuNS1J3_pWz6oE45z0hL1D0Nd4Tv0rHBKw&usqp=CAU");
+    height: 635px;
+    width:1375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation:pict 5s infinite;
+}
+@keyframes pict{
+    0%{
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSy2ABw1fqah-ZCThLuVSxRa5poEljtSyQiKYuNS1J3_pWz6oE45z0hL1D0Nd4Tv0rHBKw&usqp=CAU");
+        height: 635px;
+        width:1375px;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+    50%{
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUrmKRr6Xmwa99wZOV7lCnMzRFOzTq7CxURMoxhi_IBbnXQBDk7FZdGK4MrOvSX3DcPlo&usqp=CAU");
+        height: 635px;
+        width:1375px;
+        background-repeat: no-repeat;
+        background-size: cover;   
+    }
+    100%{
+        background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjfN2z3wIDv996G2E2b3sg3otrJT3E4WgFroG-MHoyTxt2hiH8UgrV77P7kFsJhZVy-c8&usqp=CAU");
+        height: 635px;
+        width:1375px;
+        background-repeat: no-repeat;
+        background-size: cover;  
+    }
+}
+a{
+    margin-top:20px;
+    text-decoration:none;
+    color:white;
+    float:right;
+    padding:10px;
+    margin-right:20px;
+}
+.i{
+    margin-top:350px;
+    margin-left:200px;
+}
+.c{
+    margin-left:400px;
+    border:1px solid black;
+    height:100px;
+    width:300px;
+    background-color:rgba(73, 72, 72, 0.5);
+}
+.mar{
+    margin:50px;
+}
+#b{
+    height:40px;
+    width:90px;
+    border:2px solid black;
+    background:rgba(73, 72, 72, 0.5);
+    border-radius: 40%;
+    color:white;
+    font-size:larger;
+}
+#b:hover{
+    scale:1.4;
+}

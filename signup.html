@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body{
+        background-image:url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_1280.jpg");
+        color:white;
+    }
+    input{
+        background-color: rgb(240, 238, 238);
+    }
+</style>
+<body>
+    <center><h1>Register Now</h1></center>
+        <form class="mar" action="./signsucces.html">
+            <center>
+            &emsp;&emsp;First Name : <input type="text"placeholder="Enter First Name"required>
+            &emsp;&emsp;&nbsp;Second Name : <input type="text"placeholder="Enter Second Name"required></center><br><br>
+            <center>&emsp;Email Address : <input type="email"placeholder="Enter Email Address"required>
+            &emsp;&emsp;Mobile Number: <input type="text"id="mobilenumber"placeholder="mobilenumber"required></center><br>
+            <center>Date Of Birth:<input type="date"name="dateofbirth"id="dob"required>
+                &emsp;&emsp;&emsp;&emsp;Gender:
+                <select name="gender"required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="others">Others</option>
+                </select></center>
+            <fieldset class="c">
+            <legend required>Status</legend>
+            <input type="radio"name="occ"> Employed<br>
+            <input type="radio"name="occ">UnEmployed<br>
+            <input type="radio"name="occ">Student<br>
+            </fieldset>
+        <fieldset class="c"required>
+            <legend>Dance Type</legend>
+           <input type="radio"name="dancetype" id="single">SingleDance<br>
+           <input type="radio"name="dancetype" id="couple">CoupleDance<br>
+           <input type="radio"name="dancetype"id="classic">ClassicalDance<br>
+            </fieldset>
+            <fieldset class="c"required>
+                <legend>Preferred Timings</legend>
+                <input type="radio"name="timings">Morning<br>
+                <input type="radio"name="timings">Afternoon<br>
+                <input type="radio"name="timings">Evening<br>
+            </fieldset>
+            <br>
+            <center>&emsp;&emsp;&emsp;&emsp;&ensp;Address : <input type="text" name="address"placeholder="Enter Address"required><br><br></center>
+            <center>&emsp;Create Password : <input type="password"placeholder="Enter password"required><br><br></center>
+            <center>Re-Enter Password : <input type="password"placeholder="Re-Enter Password"required><br><br></center>
+           <center> <button  id="b"type="submit">Register</button></center>
+        </form>
+</body>
+</html>

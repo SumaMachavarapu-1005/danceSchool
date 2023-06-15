@@ -1,0 +1,47 @@
+.hi{
+margin:50px;
+padding:0px;
+}
+.i{
+    display:flex;
+    justify-content:space-between;
+    width:900px;
+    margin-left:300px;
+}
+.main{
+    display:flex;
+    justify-content:space-evenly;
+    height: 50px;
+    margin-left:300px;
+}
+.sy{
+    font-family:"Brush Script MT",cursive;
+    font-size:50px;
+    color:white;
+}
+.dt{
+    display:flex;
+    justify-content: space-evenly;
+    margin-left:150px;
+
+}
+#i:hover{
+    scale:1.2;
+}
+#e:hover{
+    scale:1.3;
+}
+#f:hover{
+    scale:1.3;
+}
+.wr{
+    font-family: "Brush Script Mt",cursive;
+}
+a{
+    text-decoration:none;
+    margin-top:15px;
+}
+a:hover{
+    scale:1.6;
+    text-shadow: 8px 4px 4px white;
+}
